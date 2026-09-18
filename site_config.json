@@ -1,0 +1,136 @@
+{
+  "projectStatus": "needs_client_review",
+  "analysisDate": "2026-09-18",
+  "brand": {
+    "name": "Bendita Micro",
+    "professional": "Ioná Victório",
+    "displayName": "Ioná Victório | Sobrancelhas e Lábios",
+    "city": "Cuiabá",
+    "instagram": "https://www.instagram.com/benditamicrobyionavictorio/",
+    "bioSite": "https://bio.site/IonaVictorio",
+    "logoStatus": "candidate_only_request_original_logo",
+    "positioning": "Especialista em nanopigmentação personalizada de sobrancelhas e micropigmentação labial.",
+    "positioningConfidence": "high"
+  },
+  "theme": {
+    "primary": "#B86F78",
+    "secondary": "#F0D9D8",
+    "background": "#FAF6F3",
+    "dark": "#2B2022",
+    "wine": "#7E3948",
+    "gold": "#B59668",
+    "status": "suggested_from_public_visual_references"
+  },
+  "hero": {
+    "eyebrow": "Nanopigmentação personalizada em Cuiabá",
+    "headline": "Sobrancelhas e lábios pensados para valorizar a sua beleza.",
+    "description": "Conheça os procedimentos da Bendita Micro e tire suas dúvidas com a Ioná antes de agendar.",
+    "primaryCta": "Tirar dúvidas e agendar",
+    "secondaryCta": "Conhecer os procedimentos",
+    "assetCandidate": "bendita_assets_referencia/asset_010_7a01c215ccc5d581.jpg",
+    "needsApproval": true
+  },
+  "procedures": [
+    {
+      "id": "nano-fios",
+      "name": "Nano Fios / Nanopigmentação de sobrancelhas",
+      "description": "Técnica personalizada para valorizar o desenho e a expressão das sobrancelhas.",
+      "priority": 1,
+      "source": "instagram_bio_and_bio_site",
+      "confidence": "high",
+      "needsClientReview": true
+    },
+    {
+      "id": "micropigmentacao-labial",
+      "name": "Micropigmentação labial",
+      "description": "Procedimento labial apresentado no Bio Site e em conteúdos visuais do perfil.",
+      "priority": 2,
+      "source": "bio_site_and_public_media",
+      "confidence": "high",
+      "needsClientReview": true
+    },
+    {
+      "id": "neutralizacao-labial",
+      "name": "Neutralização labial",
+      "description": "Termo observado no destaque Cicatrizados; confirmar se é serviço separado ou etapa/protocolo labial.",
+      "priority": 3,
+      "source": "instagram_highlight_cicatrizados",
+      "confidence": "medium",
+      "needsClientReview": true
+    },
+    {
+      "id": "design-personalizado",
+      "name": "Design personalizado de sobrancelhas",
+      "description": "Serviço mencionado diretamente na bio do Instagram.",
+      "priority": 4,
+      "source": "instagram_bio",
+      "confidence": "high",
+      "needsClientReview": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "bendita_assets_referencia/asset_010_7a01c215ccc5d581.jpg",
+      "role": "hero_or_about_portrait",
+      "usageStatus": "reference_only_pending_authorization"
+    },
+    {
+      "file": "bendita_assets_referencia/asset_011_b13b5a6a6ca17106.jpg",
+      "role": "labial_procedure_candidate",
+      "usageStatus": "reference_only_pending_authorization"
+    },
+    {
+      "file": "bendita_assets_referencia/asset_013_908c2b520eb77db1.jpg",
+      "role": "professional_and_studio_candidate",
+      "usageStatus": "reference_only_pending_authorization"
+    },
+    {
+      "file": "bendita_assets_referencia/asset_014_40f1b6f072c38c57.jpg",
+      "role": "brand_precision_reference",
+      "usageStatus": "reference_only_pending_authorization"
+    }
+  ],
+  "contact": {
+    "whatsappLinkObserved": "https://api.whatsapp.com/message/FBEWS5N5NRM3J1?autoload=1&app_absent=0",
+    "whatsappNumber": null,
+    "address": null,
+    "neighborhood": null,
+    "hours": null,
+    "status": "needs_client_confirmation"
+  },
+  "sections": [
+    "hero",
+    "authority",
+    "nano_fios",
+    "micropigmentacao_labial",
+    "design_personalizado",
+    "como_funciona",
+    "resultados_autorizados",
+    "especializacao",
+    "sobre_iona",
+    "localizacao",
+    "faq",
+    "whatsapp_final"
+  ],
+  "primaryCta": {
+    "label": "Tirar dúvidas e agendar",
+    "message": "Olá! Vi o site da Bendita Micro e gostaria de saber mais sobre os procedimentos e o agendamento.",
+    "needsDirectWhatsappNumber": true
+  },
+  "openQuestions": [
+    "Qual é o nome oficial da marca: Bendita Micro ou Studio Bendita Micro?",
+    "Nano Fios e nanopigmentação de sobrancelhas são o mesmo serviço?",
+    "Micropigmentação labial e neutralização labial devem aparecer separadas?",
+    "Qual é o endereço completo e horário de atendimento?",
+    "Qual número direto do WhatsApp Business deve aparecer?",
+    "Quais imagens e depoimentos estão autorizados para uso no site?",
+    "Quais formações e certificações podem ser divulgadas?",
+    "Quais cuidados, prazos e orientações devem ser informados?"
+  ],
+  "publicationGuard": {
+    "publicInstagramMediaIsAutomaticallyAuthorized": false,
+    "beforeAfterNeedsExplicitApproval": true,
+    "lowConfidenceFieldsCanBePublished": false,
+    "humanReviewRequired": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes create-next-app@latest site --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npm install *)",
+      "Bash(rm -f public/file.svg public/globe.svg public/next.svg public/vercel.svg public/window.svg CLAUDE.md AGENTS.md)",
+      "Bash(mkdir -p src/config src/components src/lib)",
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"const m = require\\('lucide-react'\\); console.log\\(Object.keys\\(m\\).filter\\(k => /insta|social|share|at-sign/i.test\\(k\\)\\)\\)\")",
+      "Read(//tmp/**)",
+      "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq *\")",
+      "Bash(pkill -f \"next-server\")",
+      "Bash(netstat -ano)"
+    ]
+  }
+}

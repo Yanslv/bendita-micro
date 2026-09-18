@@ -1,0 +1,37 @@
+Achados My Browser — Bendita Micro / Ioná Victório
+
+Perfil: https://www.instagram.com/benditamicrobyionavictorio/
+Nome público: Ioná Victório | Sobrancelhas e Lábios | Cuiabá
+Username: benditamicrobyionavictorio
+Posts visíveis no perfil: 365
+Seguidores visíveis: 3.666
+Seguindo visível: 5.541
+Categoria exibida: Entrepreneur
+Bio visível: especialista em Nanopigmentação Personalizada de Sobrancelhas; Lábios • Sobrancelhas • Design personalizado; início da linha “Studio...” truncada.
+Link da bio: https://bio.site/IonaVictorio
+Destaques visíveis: Cicatrizados; Procedimentos; Especialização.
+Bio Site: título Ioná Victório; subtítulo “NANO FIOS - MICROPIGMENTAÇÃO LABIAL”; botão “Dúvidas e Agendamentos”; o botão abre um link de mensagem do WhatsApp: https://api.whatsapp.com/message/FBEWS5N5NRM3J1?autoload=1&app_absent=0. O número não ficou exposto publicamente no fluxo observado.
+Identidade visual observada: uso de retrato profissional da Ioná; tons quentes/rosados e pele; destaque para lábios e sobrancelhas; estética feminina, pessoal e especializada; materiais com texto dourado/branco e fundo escuro em algumas peças; Bio Site usa composição de capa com close de lábios/sobrancelhas e fundo em gradiente pastel.
+Posts visíveis na primeira dobra: retrato da profissional; close de lábios pigmentados; close de sobrancelhas/rosto; foto da profissional no espaço; material “by Ioná Victório”/concept. Destaques e posts sugerem forte uso de prova visual de procedimento e formação.
+Observação: não tratar imagens públicas como autorizadas para republicação; para site de cliente, solicitar autorização e arquivos originais.
+
+Achados adicionais dos destaques:
+- Destaque Cicatrizados contém pelo menos um story com resultado/relato visual de neutralização labial; aparece a frase “Cliente linda curtindo suas férias sem precisar de batom!” e o rótulo “Antes da neutralização labial”. Isso sugere que neutralização/micropigmentação labial deve ser uma oferta principal ou secundária do site.
+- Outro item do destaque aparece como “Watch full reel”; o conteúdo não ficou legível no navegador, portanto não deve ser tratado como evidência adicional.
+- O destaque Procedimentos e o destaque Especialização aparecem como categorias estratégicas para a arquitetura do site.
+
+Achados do HTML capturado no My Browser:
+- A meta description do perfil confirma: “3,658 Followers, 5,803 Following, 365 Posts” e a bio completa “🏅Especialista em Nanopigmentação Personalizada de Sobrancelhas; 👄Lábios • Sobrancelhas • Design personalizado; 🌸Studio Bendita Micro; Agende seu horário📲”.
+- O HTML disponibilizou 26 URLs de imagem no perfil e 40 URLs na página do destaque Procedimentos, entre avatar, thumbnails, posts e stories. Esses links são temporários e não equivalem a autorização de uso.
+- Há diferença entre números exibidos no HTML e na interface viva: HTML 3.658 seguidores/5.803 seguindo; interface observada 3.666 seguidores/5.541 seguindo. O produto deve registrar timestamp e não tratar o número como dado estático.
+- A fonte oficial vinculada é o Bio Site e o CTA público de agendamento abre uma mensagem do WhatsApp, sem exibir o número no texto da página.
+
+Observação de navegação: ao avançar a partir do destaque Procedimentos, o índice dinâmico 17 passou a abrir Especialização; os índices de Stories mudam a cada estado e não devem ser persistidos como identificadores. O destaque Procedimentos é visível como categoria, mas o texto do card interno não ficou legível no recorte atual.
+
+Inspeção visual de assets:
+- `asset_010_7a01c215ccc5d581.jpg` (1608x2144) é um retrato vertical da Ioná em ambiente de atendimento, com camisa rosa, iluminação circular e espaço ao fundo. Candidato forte para hero ou seção Sobre; ainda requer confirmação de uso e arquivo original.
+- `asset_011_b13b5a6a6ca17106.jpg` (1937x1937) é um close de lábios com tonalidade rosada e acabamento pigmentado, com corrente dourada ao fundo. Candidato para seção de micropigmentação labial; não usar como resultado clínico sem autorização e contexto.
+
+Inspeção visual adicional:
+- `asset_013_908c2b520eb77db1.jpg` (1760x2347) mostra a profissional em primeiro plano e outra pessoa no espaço de atendimento; há quadros/certificados ao fundo. Pode apoiar a narrativa de equipe/ambiente, mas não usar diplomas ou identificação de terceiros sem validar.
+- `asset_014_40f1b6f072c38c57.jpg` (1086x1086) mostra material “by Ioná Victório” em ambiente de trabalho e embalagens “CONCEPT PREMIUM BLADE / LÂMINAS DE ALTA PRECISÃO”. É referência de atmosfera premium e precisão técnica; não transformar a marca do fornecedor em selo da Bendita Micro.

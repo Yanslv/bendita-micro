@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -NoProfile -Command \"Stop-Process -Id 39572 -Force\")",
+      "Bash(cd \"/c/Users/yan.amorim/Downloads/bendita_micro_claude_code/bendita_micro_claude_code/site\" && find . -maxdepth 3 -not -path \"./node_modules*\" -not -path \"./.git*\" -not -path \"./.next*\" | sort && rm -f /tmp/page.html /tmp/next-start.log)",
+      "Bash(rmdir src/lib)",
+      "Bash(rm -f tsconfig.tsbuildinfo)",
+      "Bash(pnpm -v)",
+      "Bash(corepack --version)",
+      "Bash(corepack enable *)",
+      "Bash(npm audit *)",
+      "Bash(npx drizzle-kit *)",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const m = require\\('lucide-react'\\); ['LayoutDashboard','CalendarDays','ClipboardList','Users','Sparkles','Wallet','Settings','LogOut','Menu','X','Plus','Check','XCircle','CalendarClock','ChevronLeft','ChevronRight','Search','Filter','Download','AlertCircle','Clock','Phone','Mail','MapPin'].forEach\\(k => console.log\\(k, !!m[k]\\)\\)\")",
+      "Bash(npx vitest *)",
+      "Bash(grep -o \"R\\\\$[^<]*\" /tmp/home.html)",
+      "Bash(rm -f cookies.txt)",
+      "Bash(curl -s -c cookies.txt -o /dev/null http://localhost:4321/admin/login)",
+      "Bash(curl -s -c cookies.txt -b cookies.txt -o /tmp/login-result.html -w \"LOGIN POST %{http_code} -> %{redirect_url}\\\\n\" -X POST http://localhost:4321/admin/login --data-urlencode \"email=admin@benditamicro.demo\" --data-urlencode \"password=demo1234\")",
+      "Bash(curl -s -b cookies.txt -o /tmp/admin-dash.html -w \"ADMIN DASH %{http_code}\\\\n\" http://localhost:4321/admin)",
+      "Bash(curl -s http://localhost:4321/admin/login -o /tmp/login-page.html)",
+      "Bash(grep -o 'name=\"\\\\$ACTION_ID[^\"]*\"' /tmp/login-page.html)",
+      "Bash(grep -o '\\\\$ACTION_[A-Za-z0-9_]*' /tmp/login-page.html)",
+      "Bash(curl -s -c cookies.txt -D /tmp/login-headers2.txt -o /tmp/login-result2.html -w 'LOGIN POST %{http_code}\\\\n' -X POST http://localhost:4321/admin/login -F '$ACTION_REF_1=' -F '$ACTION_1:0={\"id\":\"605f226b1a2ba54ff7dd1b85e7037a7f3b9faca824\",\"bound\":\"$@1\"}' -F '$ACTION_1:1=[\"$undefined\"]' -F '$ACTION_KEY=k843e7691a5f945d87a411ce56ddf73dd' -F email=admin@benditamicro.demo -F password=demo1234)",
+      "Bash(curl -s -b /tmp/cookies.txt -o /tmp/admin-dash.html -w \"ADMIN DASH %{http_code}\\\\n\" http://localhost:4321/admin)",
+      "Bash(grep -o \"Visão geral\\\\|Agendamentos hoje\\\\|Pendentes\\\\|R\\\\$ [0-9.,]*\" /tmp/admin-dash.html)",
+      "Bash(grep -oE \"R\\\\\\\\\\\\$[^\\\\\"\\\\\\\\\\\\\\\\]{1,15}\" /tmp/admin__admin_financeiro.html)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -b /tmp/cookies.txt \"http://localhost:4321/admin/agendamentos/seed-appt-future-confirmed\" -o /tmp/appt-detail.html -w \"%{http_code}\\\\n\")",
+      "Bash(curl -s -b /tmp/cookies.txt -D /tmp/csv-headers.txt \"http://localhost:4321/admin/financeiro/export\" -o /tmp/export.csv -w \"%{http_code}\\\\n\")",
+      "Bash(curl -s -o /dev/null -w \"Unauthenticated CSV export -> %{http_code} \\(should be redirect 307/303, not 200\\)\\\\n\" \"http://localhost:4321/admin/financeiro/export\")",
+      "Bash(powershell -NoProfile -Command \"Stop-Process -Id 48136 -Force\")",
+      "Bash(rm -f /tmp/*.html /tmp/*.txt /tmp/*.csv /tmp/*.log)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}
